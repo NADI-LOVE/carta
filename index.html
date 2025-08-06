@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon1.jpg">
+    <title>Dedicacion</title>
+</head>
+<body>
+    <h1>¡Espero te guste! ❤️</h1>
+    <div class="contenedor">
+        <div class="envoltura-sobre">
+            <div class="sobre">
+                <div class="carta">
+                    <div class="contenido">
+                    <strong>Querida Amiga!!</strong>
+                    <p>
+                        <p>
+                            Hoy no es una fecha especial en el calendario, pero aun así sentí que era un buen momento para escribirte algo. No hay globos ni rosas, ni playlists cursis de fondo (bueno, tal vez una canción suave sí esté sonando). Solo hay palabras, unas cuantas líneas de código disfrazadas de carta.  
+                            <br><br>
+                            Desde que apareciste en mi vida, las cosas cambiaron sin que me diera cuenta. Fue como actualizar mi sistema sin reiniciar: todo empezó a fluir mejor, más ligero, más natural. Mis días dejaron de tener errores fatales y mi ánimo empezó a compilar sin advertencias.  
+                            <br><br>
+                            Eres como esa librería que uno no sabía que necesitaba, hasta que la importa y todo mejora. O como ese diseño limpio, que no grita, pero hace que todo se sienta en orden. Hay algo en ti que es difícil de explicar, como una función que no ves en pantalla pero sabes que está corriendo en segundo plano, haciendo que todo funcione mejor.  
+                            <br><br>
+                            Si fueras una variable, serías la que nunca quiero que cambie. Si fueras una clase, serías la que siempre extiendo cuando necesito un poco de alegría. Si fueras una línea de código, serías esa que nunca quiero comentar porque hace que el programa tenga sentido.  
+                            <br><br>
+                            A veces me descubro pensando en ti como se piensa en un proyecto bonito: con paciencia, con entusiasmo, con esa sensación de que todavía hay mucho por descubrir. Porque sí, hay algo en ti que me intriga, me atrae y me hace volver, como cuando revisas un código que ya conoces solo para admirar lo bien que está escrito.  
+                            <br><br>
+                            Puede que esta carta no tenga loops infinitos, pero en cierto modo, se repite cada vez que pienso en ti. Y si alguna vez descubres que entre estas líneas hay algo más de lo que parece, entonces habrás encontrado el pequeño bug que dejé intencionalmente: uno que no quiero corregir, porque revela lo que de verdad siento por ti.  
+                            <br><br>
+                            Gracias por existir así, sin adornos, sin necesidad de condiciones. Eres mi error favorito, mi función oculta, mi constante silenciosa.  
+                            </p>
+                            <strong>Espero te guste este presente para ti</strong>, mi <em>amiga de pogramacion XD</em>. <br> Con mucho <strong>código</strong> (y <strong>cariño</strong>), <br> Tu programador principiante (jhonF). <br> <span style="font-size: 0.9em; color: grey;">PD: Si esta carta fuera un programa, su salida sería:</span> <br> <code>"Puedes contar contigo si no entiendes algo XD."</code>
+                            <!-- Imagen decorativa al final -->
+                            <img src="img/icon2.jpg" alt="Imagen especial para ti" style="max-width: 100%; height: auto; margin-top: 20px; border-radius: 12px;">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="corazon"></div>
+            <div class="solapa-derecha"></div>
+            <div class="solapa-izquierda"></div>
+        </div>
+    </div>
+    <!-- <script src="script_v2.js"></script> -->
+    <script src="script_v2.js"></script>
+
+    <!-- Música de fondo -->
+    <audio id="musica" loop>
+        <source src="audio/in the name of love.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+    document.addEventListener("click", () => {
+        const musica = document.getElementById("musica");
+        musica.volume = 0.5; // volumen bajo (50%)
+        musica.currentTime = 8; // iniciar desde el segundo 9
+        musica.play();
+    }, { once: true });
+    </script>
+    
+</body>
+</html>
